@@ -48,7 +48,7 @@ Binaries/
 Binaries/*
 
 # Builds
-*/Build/
+**/Build/
 Build/*
 
 # Don't ignore icon files in Build
@@ -63,3 +63,4 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+BuildingEscape/Binaries/Win64/UE4Editor.modules
