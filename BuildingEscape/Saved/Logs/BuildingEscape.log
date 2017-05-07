@@ -259,3 +259,26 @@ LogInit: Object subsystem initialized
 
 [2017.05.07-15.09.20:261][332]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
 
+[2017.05.07-15.12.09:195][874]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.07-15.12.09:248][875]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BuildingEscape
+
+[2017.05.07-15.12.09:248][875]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.07-15.12.09:248][875]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.07-15.12.09:248][875]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.07-15.12.09:248][875]LogTemp:Display: BranchPath = DESKMONSTER-66O/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKMONSTER-66O/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.07-15.12.09:249][875]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\delta\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.05.07-15.12.09:249][875]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.07-15.12.09:249][875]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.07-15.12.09:249][875]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.07-15.12.09:249][875]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.07-15.12.09:249][875]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
