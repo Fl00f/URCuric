@@ -60,3 +60,4 @@ BuildingEscape/Intermediate/*
 
 # Cache files for the editor to use
 BuildingEscape/DerivedDataCache/*
+BuildingEscape/Config/DefaultEngine.ini
