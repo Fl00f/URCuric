@@ -530,3 +530,7 @@ LogInit: Object subsystem initialized
 [2017.05.07-14.34.54:452][371]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/delta/Desktop/Repos/URCuric/BuildingEscape/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
 [2017.05.07-14.34.54:457][371]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.104
 [2017.05.07-14.34.54:457][371]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.104
+[2017.05.07-14.38.20:111][828]LogSavePackage: Save=32.88ms
+[2017.05.07-14.38.20:111][828]LogSavePackage: Moving '../../../../../../Users/delta/Desktop/Repos/URCuric/BuildingEscape/Saved/Section_2_Chair_RockEC119D064BD8CA2534416A8759AA2835.tmp' to '../../../../../../Users/delta/Desktop/Repos/URCuric/BuildingEscape/Content/Scenes/Section_2_Chair_Rock.umap'
+[2017.05.07-14.38.20:114][828]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/delta/Desktop/Repos/URCuric/BuildingEscape/Content/Scenes/Section_2_Chair_Rock.umap
+[2017.05.07-14.38.20:134][828]LogFileHelpers: Saving map 'Section_2_Chair_Rock' took 0.936
