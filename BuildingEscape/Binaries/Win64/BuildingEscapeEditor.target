@@ -2,7 +2,7 @@
 	"TargetName" : "BuildingEscapeEditor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "",
+	"BuildId" : "0668301b-4b9e-451e-9662-ec4765620e57",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
@@ -17,15 +17,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-BuildingEscape.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-BuildingEscape-3439.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-BuildingEscape.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-BuildingEscape-3439.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-BuildingEscape.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-BuildingEscape-3439.lib",
 			"Type" : "ImportLibrary"
 		},
 		{
