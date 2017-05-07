@@ -1,0 +1,3 @@
+C:\Users\delta\Desktop\Repos\URCuric\BuildingEscape\Source\BuildingEscape\BuildingEscape.Build.cs
+C:\Users\delta\Desktop\Repos\URCuric\BuildingEscape\Source\BuildingEscape.Target.cs
+C:\Users\delta\Desktop\Repos\URCuric\BuildingEscape\Source\BuildingEscapeEditor.Target.cs
