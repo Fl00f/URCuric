@@ -471,3 +471,62 @@ LogInit: Object subsystem initialized
 [2017.05.07-02.13.00:592][  1]LogAssetRegistry: Asset discovery search completed in 98.3023 seconds
 [2017.05.07-02.13.00:592][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
 [2017.05.07-02.13.00:592][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.05.07-14.24.56:011][620]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.07-14.24.56:014][620]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.07-14.24.56:022][620]LightingResults: New page: Lighting Build
+[2017.05.07-14.24.56:024][620]LoadErrors: New page: Loading map: Template_Default.umap
+[2017.05.07-14.24.56:037][620]MapCheck: New page: Map Check
+[2017.05.07-14.24.56:037][620]LightingResults: New page: Lighting Build
+[2017.05.07-14.24.56:059][620]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.07-14.24.56:063][620]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.07-14.24.56:114][620]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.07-14.24.56:119][620]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.07-14.24.56:165][620]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.66ms to complete.
+[2017.05.07-14.24.56:165][620]LogFileHelpers: Loading map 'Template_Default' took 0.155
+[2017.05.07-14.25.04:854][518]LogActorFactory: Actor Factory created SM_Chair
+[2017.05.07-14.25.07:105][775]LogActorFactory: Actor Factory created SM_Chair
+[2017.05.07-14.25.08:014][794]LogActorFactory: Actor Factory created SM_Rock
+[2017.05.07-14.25.08:490][839]LogActorFactory: Actor Factory created SM_Rock
+[2017.05.07-14.26.20:739][429]LogSlate: Took 0.015878 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.07-14.26.23:958][786]LogSlate: Took 0.024321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.07-14.26.39:013][786]Running C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape Win64 Development -editorrecompile "C:/Users/delta/Desktop/Repos/URCuric/BuildingEscape/BuildingEscape.uproject" -invalidatemakefilesonly
+[2017.05.07-14.26.39:416][786]Invalidating makefiles only in this run.
+[2017.05.07-14.26.39:520][786]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.07-14.26.39:606][786]Recompiling BuildingEscape...
+[2017.05.07-14.26.39:606][786]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix BuildingEscape 6070 Win64 Development -editorrecompile -canskiplink "C:/Users/delta/Desktop/Repos/URCuric/BuildingEscape/BuildingEscape.uproject" ]
+[2017.05.07-14.26.48:298][786]CompilerResultsLog: New page: Compilation - May 7, 2017, 6:26:48 AM
+[2017.05.07-14.26.48:298][786]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
+[2017.05.07-14.26.48:298][786]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.05.07-14.26.48:298][786]CompilerResultsLog: Info Parsing headers for BuildingEscapeEditor
+[2017.05.07-14.26.48:298][786]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\delta\Desktop\Repos\URCuric\BuildingEscape\BuildingEscape.uproject" "C:\Users\delta\Desktop\Repos\URCuric\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.05.07-14.26.48:299][786]CompilerResultsLog: Info Reflection code generated for BuildingEscapeEditor in 3.1106857 seconds
+[2017.05.07-14.26.48:299][786]CompilerResultsLog: Info Performing 4 actions (12 in parallel)
+[2017.05.07-14.26.48:299][786]CompilerResultsLog: Info PositionReport.cpp
+[2017.05.07-14.26.48:299][786]CompilerResultsLog: Info BuildingEscape.generated.cpp
+[2017.05.07-14.26.48:299][786]CompilerResultsLog: Info [3/4] Link UE4Editor-BuildingEscape-6070.dll
+[2017.05.07-14.26.48:299][786]CompilerResultsLog: Info [4/4] Link UE4Editor-BuildingEscape-6070.lib
+[2017.05.07-14.26.48:299][786]CompilerResultsLog: Info    Creating library C:\Users\delta\Desktop\Repos\URCuric\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-6070.lib and object C:\Users\delta\Desktop\Repos\URCuric\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-6070.exp
+[2017.05.07-14.26.48:299][786]CompilerResultsLog: Info    Creating library C:\Users\delta\Desktop\Repos\URCuric\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-6070.suppressed.lib and object C:\Users\delta\Desktop\Repos\URCuric\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-6070.suppressed.exp
+[2017.05.07-14.26.48:299][786]CompilerResultsLog: Info Total build time: 8.37 seconds (Local executor: 2.75 seconds)
+[2017.05.07-14.26.48:299][786]LogMainFrame: MainFrame: Module compiling took 8.717 seconds
+[2017.05.07-14.26.48:374][786]LogClass: Could not find existing class PositionReport in package /Script/BuildingEscape for HotReload, assuming new class
+[2017.05.07-14.26.48:377][786]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0022 seconds. Added 2 classes and 2 folders.
+[2017.05.07-14.26.48:378][786]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.05.07-14.26.48:496][786]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2249 classes and 459 folders.
+[2017.05.07-14.26.48:503][786]Display: HotReload took  9.0s.
+[2017.05.07-14.26.48:504][786]Warning: HotReload operation took  9.0s.
+[2017.05.07-14.26.49:476][786]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/delta/Desktop/Repos/URCuric/BuildingEscape/Source/BuildingEscape/PositionReport.h'
+[2017.05.07-14.26.49:524][786]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/delta/Desktop/Repos/URCuric/BuildingEscape/Source/BuildingEscape/PositionReport.cpp'
+[2017.05.07-14.26.50:082][787]LogHotReload: New module detected: UE4Editor-BuildingEscape-6070.dll
+[2017.05.07-14.26.50:099][788]LogHotReload: Starting Hot-Reload from IDE
+[2017.05.07-14.26.50:178][788]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0022 seconds. Added 2 classes and 2 folders.
+[2017.05.07-14.26.50:180][788]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.05.07-14.26.50:197][788]LogContentBrowser: Native class hierarchy populated in 0.0170 seconds. Added 2249 classes and 459 folders.
+[2017.05.07-14.26.50:205][788]Display: HotReload took  0.1s.
+[2017.05.07-14.29.25:039][653]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.05.07-14.34.45:630][345]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.07-14.34.54:450][371]LogSavePackage: Save=83.86ms
+[2017.05.07-14.34.54:450][371]LogSavePackage: Moving '../../../../../../Users/delta/Desktop/Repos/URCuric/BuildingEscape/Saved/Untitled_1_Auto146490F154C945365A5DAB1A76908FB03.tmp' to '../../../../../../Users/delta/Desktop/Repos/URCuric/BuildingEscape/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2017.05.07-14.34.54:452][371]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/delta/Desktop/Repos/URCuric/BuildingEscape/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2017.05.07-14.34.54:457][371]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.104
+[2017.05.07-14.34.54:457][371]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.104
