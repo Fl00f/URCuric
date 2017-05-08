@@ -20,12 +20,19 @@ void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	AActor* owner = GetOwner();
-	//owner->GetTransform().GetRotation();
-	FString temp = owner->GetTransform().GetRotation().ToString();
-	UE_LOG(LogTemp,Warning, TEXT("%s"), *owner->GetTransform().GetRotation().ToString());
-	// ...
+
+	ActorThatOpensDoors = GetWorld()->GetFirstPlayerController()->GetPawn();
+
 	
+}
+
+void UOpenDoor::OpenDoor()
+{
+	AActor* owner = GetOwner();
+
+	FRotator rotation = FRotator(0.f, 30.f, 0.f);
+	owner->SetActorRotation(rotation);
+
 }
 
 
@@ -34,6 +41,11 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+
+	if (pressurePlate->IsOverlappingActor(ActorThatOpensDoors))
+	{
+		OpenDoor();
+	}
 	// ...
 }
 
